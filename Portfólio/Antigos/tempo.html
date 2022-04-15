@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Tabela Trello </title>
+    <style>
+        table {
+            width: 100%;
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+        }
+        
+        tbody tr:nth-of-type(odd) {
+            background-color: #e1e1e1;
+        }
+
+        td, th {
+            padding: 1em;
+        }
+
+        tfoot tr, thead, [colspan="2"], [rowspan="3"] {
+            background-color: #333;
+            color: #fff;
+        }
+
+        section {
+            margin: 50px 25px 50px 25px;
+            border: 1px solid gray;
+        }
+    </style>
+</head>
+<body>
+    <section class="tabela-simples">
+        <p>Tabela Simples</p>
+        <table>
+            <tr>
+                <td>A</td>
+                <td>B</td>
+                <td>C</td>
+            </tr>
+            <tr>
+                <td>A1</td>
+                <td>B1</td>
+                <td>C1</td>
+            </tr>
+            <tr>
+                <td>A2</td>
+                <td>B2</td>
+                <td>C2</td>
+            </tr>
+            <tr>
+                <td>A3</td>
+                <td>B3</td>
+                <td>C3</td>
+            </tr>
+        </table>
+    </section>
+
+    </section>
+    <section class="tabelaEx2">       
+        <table>
+            <thead>
+                <th colspan="3">MINHA TABELA </th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td >A</td>
+                    <td>B</td>
+                    <td>C</td>
+                </tr>
+                <tr>
+                    <td>A1</td>
+                    <td>B1</td>
+                    <td>C1</td>
+                </tr>
+                <tr>
+                    <td>A2</td>
+                    <td>B2</td>
+                    <td>C2</td>
+                </tr>                
+            </tbody>
+            <tfoot>
+                <td colspan="3">Meu rodapé</td>
+            </tfoot>
+        </table>
+    </section>
+    
+</body>
+</html>

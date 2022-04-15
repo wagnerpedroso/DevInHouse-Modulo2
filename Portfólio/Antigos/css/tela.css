@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(70, 211, 4); 
+    }
+
+    .cadastro {
+        width: 600px;
+        height: 450px;
+        background-color: rgb(138, 48, 48);
+    }
+
+    .imagem {
+        width: 400px;
+        width: 50%;
+    }
+
+.imagem > img {
+    width: 100px;
+
+}
