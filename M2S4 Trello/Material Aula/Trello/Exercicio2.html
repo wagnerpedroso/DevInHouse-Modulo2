@@ -1,0 +1,9 @@
+É possível selecionar um elemento DOM pela API JavaScript. Uma forma é através das APIS:
+
+document.getElementById(id)
+document.getElementsByClassName(className)
+document.getElementsByName(name)
+document.getElementsByTagName(tagName)
+Porém, se eu quiser utilizar os mesmo seletores que uso no CSS, o JS me permite isso? Se sim, como?
+
+iferente dos outros métodos, o querySelector() não recebe um atributo de uma tag HTML ou uma tag como parâmetro, mas recebe o mesmo seletor que seria utilizado em CSS, no formato string. É importante lembrar que assim como no CSS, a utilização de “.” para indicar classes bem como a utilização de “#” para indicar ids é obrigatória.

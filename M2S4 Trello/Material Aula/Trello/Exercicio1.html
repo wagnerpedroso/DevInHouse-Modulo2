@@ -1,0 +1,10 @@
+Quais são os tipos de "for" e o que cada um tem acesso direto do array?
+
+Tipos de For:
+For
+For… In
+For… Of
+
+for...in não deve ser usado para iteração em uma Array onde a ordem é importante, visto que ele iterage em uma ordem arbitrária.
+
+Indices de arrays somente se tornam propriedades enumeradas com inteiros (integer). Não há garantia de que utilizando o laço for...in os indices de um array serão retornados em uma ordem particular ou irá retornar todas as propriedades enumeráveis. É recomendável utilizar o laço for com índices numéricos ou Array.prototype.forEach() ou ainda for...of quando iteragir sobre arrays onde a ordem é importante.

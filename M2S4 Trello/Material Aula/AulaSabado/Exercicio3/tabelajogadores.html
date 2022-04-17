@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela jogadores</title>
+</head>
+<body>
+
+    <table>
+        <caption>Seleção 94</caption>
+        <thead>
+            <th>jogador</th>
+            <th>posicão</th>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+
+    <script>
+        const jogadores = [
+    {
+        nome: 'Taffarel',
+        posicao: 'Goleiro',
+        gols: 0,
+    },
+    {
+        nome: 'Jorginho',
+        posicao: 'Lateral Direito',
+        gols: 2,
+    },
+    {
+        nome: 'Ricardo Rocha',
+        posicao: 'Zagueiro',
+        gols: 5,
+    },
+    {
+        nome: 'Mauro Silva',
+        posicao: 'Volante',
+        gols: 8,
+    },
+    {
+        nome: 'Bebeto',
+        posicao: 'Atacante',
+        gols: 10,
+    },
+    {
+        nome: 'Romário',
+        posicao: 'Atacante',
+        gols: 6,
+    },
+    {
+        nome: 'Dunga',
+        posicao: 'Volante',
+        gols: 3,
+    },
+];
+    
+    jogadores.forEach(function(jogador){
+        const linha = document.createElement('tr');
+
+        const nomeDoJogador = document.createElement('td');
+        nomeDoJogador.innerText = jogador.nome;
+        linha.appendChild(nomeDoJogador)
+
+        const posiçaooJogador = document.createElement('td');
+        nomeDoJogador.innerText = jogador.posicao;
+        linha2.appendChild(posiçaooJogador);
+
+        const corpoDaTabela = document.querySelector('tbody')
+        corpoDaTabela.appendChild(linha);
+    });
+  </script>
+</body>
+</html>
