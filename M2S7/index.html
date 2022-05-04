@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="Objetos.js"></script>
+</head>
+<body>
+
+
+    
+
+    <script>
+        let nomeAluno1 = 'Wagner Pedroso'
+        let idadeAluno1 = 28;
+        let turmaAluno1 = '2b';
+        
+        let nomeAluno2 = 'Jessica Milwerstet'
+        let idadeAluno2 = 29;
+        let turmaAluno2 = '2b';
+
+        let nomeAluno3 = 'Padrão 1'
+        let idadeAluno3 = 15;
+        let turmaAluno3 = '2b';
+        
+        let nomeAluno4 = 'Padrão 2'
+        let idadeAluno4 = 19;
+        let turmaAluno4 = '2b';
+
+
+        const aluno1 = document.createElement('span');
+        aluno1.innerText = 'Nome é  ${nomeAluno1},  com idade de ${idadeAluno1} anos e estou na turma ${turmaAluno1}';
+       
+        const aluno2 = document.createElement('span');
+        aluno2.innerText = 'Nome é  ${nomeAluno2},  com idade de ${idadeAluno2} anos e estou na turma ${turmaAluno2}';
+              
+
+        const aluno3 = document.createElement('span');
+        aluno3.innerText = 'Nome é ${nomeAluno1},  com idade de ${idadeAluno1} anos e estou na turma ${turmaAluno1}';
+       
+
+       const pai = document.querySelector('body');
+
+       pai.appendChild(aluno1);
+
+       
+       pai.appendChild(aluno2);
+
+       
+       pai.appendChild(aluno3);
+
+       // console.log('Nome ${nomeAluno1}  com idade de ${idadeAluno1}') ;
+ 
+
+
+
+    </script>
+</body>
+</html>
